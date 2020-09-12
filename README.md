@@ -1,15 +1,14 @@
 # CFRS_AL
 This work is about providing an abductive-based formal explanation to a Collaborative Filtering Recommender System (CFRS). The repository consists of four main files:
-  1. "Movies_PA.ipynb" illustrates the preliminary study conducted in order to explore the Movie dataset and retrieve useful metrics (i.e runtime, ratings,   
-      popularity, etc).
+  1. "Movies_PA.ipynb" illustrates the preliminary study conducted in order to explore the Movie dataset and retrieve useful metrics (i.e runtime, ratings, popularity, etc).
      
   2. "Movies_BK-means.ipynb" contains the proposed Bisecting K-means model for the CFRS construction.
      
      2.1 'Movies' dataset which is used to train the Bisecting K-means model can be downloaded from:  
-         "https://www.kaggle.com/rounakbanik/the-movies-dataset?select=movies_metadata.csv"
+          "https://www.kaggle.com/rounakbanik/the-movies-dataset?select=movies_metadata.csv"
     
      2.2 To test this program, both Hadoop and PySpark need to be activated on a local machine and the dataset need to be uploaded into the HDFS
-          (Hadoop Data File Management System).
+           (Hadoop Data File Management System).
      
    3. "Movie-lens_CFRS_clustering.ipynb" is a different CFRS implementation which is much easier and closer to human logic. 
      
