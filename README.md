@@ -7,8 +7,9 @@ This work is about providing an abductive-based formal explanation to a Collabor
      2.1 'Movies' dataset which is used to train the Bisecting K-means model can be downloaded from:  
           "https://www.kaggle.com/rounakbanik/the-movies-dataset?select=movies_metadata.csv"
     
-     2.2 To test this program, both Hadoop and PySpark need to be activated on a local machine and the dataset need to be uploaded into the HDFS
-           (Hadoop Data File Management System).
+     2.2 To test this learning program, both Hadoop and PySpark need to be activated on a local machine and the dataset need to be uploaded into the HDFS
+           (Hadoop Data File Management System). The execution of "ipynb" files could be done with jupyter-notebook under Anaconda for windows/macOS or by using the 
+           "pip-install jupyter notebook" command line under linux.
      
    3. "Movie-lens_CFRS_clustering.ipynb" is a different CFRS implementation which is much easier and closer to human logic. 
      
