@@ -239,7 +239,7 @@ recommend :-
 	read(Ans5),nl;
         (Ans2 == 'adventure' -> write('   What type of movie adventure?'),nl,
 	    write('1. fantasy'),nl,
-            write('2. sci-Fi'),nl,
+            write('2. scifi'),nl,
 	    write('3. family'),nl,
 	    read(Ans5),nl; 
 	    Ans5='others')), 
